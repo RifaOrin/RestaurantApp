@@ -51,7 +51,7 @@ function Navbar() {
           </div>
 
           {/* Button Section */}
-          <div className="flex items-center">
+          <div className="flex items-center hidden md:block">
             <Button text={"Book a table"} />
           </div>
 

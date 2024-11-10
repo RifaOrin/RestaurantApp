@@ -5,12 +5,13 @@ import PopularFood from "./components/PopularFood";
 import Reservation from "./components/Reservation";
 import Review from "./components/Review";
 import Footer from "./components/Footer";
+import InfoSection from "./components/InfoSection";
 
 function App() {
   return (
     <div>
       <Hero />
-      <About />
+      <InfoSection />
       <PopularFood />
       <Reservation />
       <Review />

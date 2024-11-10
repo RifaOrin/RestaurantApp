@@ -31,9 +31,9 @@ function Hero() {
             <img
               src={gradientBg}
               alt="gradient background"
-              className="absolute inset-0 w-full h-full object-cover z-0"
+              className="absolute inset-0 w-full h-full object-cover z-10"
             />
-            <h1 className="relative z-10 text-3xl sm:text-5xl md:text-6xl  xl:text-[5.7rem] 2xl:text-[6.7rem] font-[400] leading-tight sm:leading-none md:leading-none px-4 pt-6 pb-2 md:py-4 font-bebas">
+            <h1 className="relative z-10 text-3xl sm:text-5xl md:text-6xl  xl:text-[5.7rem] font-[400] leading-tight sm:leading-none md:leading-none px-4 pt-6 pb-2 md:py-4 font-bebas">
               Taste the Authentic Saudi Cuisine
             </h1>
           </div>
@@ -61,7 +61,7 @@ function Hero() {
 
           {/* Slightly Larger Yellow Circle Background */}
           <div
-            className="absolute bottom-[-14px] right-[-14px] w-14 h-14 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-yellow rounded-full"
+            className="absolute bottom-[-14px] right-[-14px] w-14 h-14  bg-yellow rounded-full"
             aria-hidden="true" // Decorative for accessibility
           ></div>
 
@@ -69,7 +69,7 @@ function Hero() {
           <img
             src={circleImage} // Path to the circle image with a red border
             alt="decorative circle"
-            className="absolute bottom-[-10px] right-[-10px] w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 object-cover"
+            className="absolute bottom-[-10px] right-[-10px] w-12 h-12  object-cover"
           />
 
           {/* Flower Image at Top Right */}
