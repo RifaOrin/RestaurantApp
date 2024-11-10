@@ -23,7 +23,7 @@ function About() {
         {/* Phone Section with Icon */}
         <div className="flex items-center gap-2">
           <img src={phoneIcon} alt="phone icon" className="w-5 h-5" />
-          <p className="text-sm xl:text-base text-justify font-semibold text-black flex items-center">
+          <p className="text-sm xl:text-base text-start font-semibold text-black">
             +88 3426 739 485
           </p>
         </div>

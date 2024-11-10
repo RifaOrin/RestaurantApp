@@ -33,7 +33,7 @@ function Hero() {
               alt="gradient background"
               className="absolute inset-0 w-full h-full object-cover z-10"
             />
-            <h1 className="relative z-10 text-3xl sm:text-5xl md:text-6xl  xl:text-[5.7rem] font-[400] leading-tight sm:leading-none md:leading-none px-4 pt-6 pb-2 md:py-4 font-bebas">
+            <h1 className="relative z-10 text-3xl sm:text-5xl md:text-6xl lg:text-[4.3rem] xl:text-[5.7rem] font-[400] leading-tight sm:leading-none md:leading-none px-4 pt-6 pb-2 md:py-4 font-bebas">
               Taste the Authentic Saudi Cuisine
             </h1>
           </div>
