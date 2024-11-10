@@ -7,8 +7,8 @@ import { IconData } from "../mockData/IconData";
 function InfoSection() {
   const [activeTab, setActiveTab] = useState("About");
   return (
-    <div className="container mx-auto ">
-      <div className="flex flex-col lg:flex-row gap-8 py-10 lg:py-16 relative">
+    <div className="container py-10 lg:py-16 relative">
+      <div className="flex flex-col lg:flex-row gap-8 pt-8 pb-10 lg:pb-16">
         {/* Left side: Food Image */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
           <img
@@ -60,7 +60,7 @@ function InfoSection() {
                 <p className="font-[500] text-black font-bebas text-2xl">
                   {item.title}
                 </p>
-                <p className="text-gray-600 text-sm">{item.subtitle}</p>
+                <p className="text-black font-inter text-sm">{item.subtitle}</p>
               </div>
             </div>
           );
@@ -71,7 +71,7 @@ function InfoSection() {
       <img
         src={bellPepper}
         alt="Decorative bell pepper"
-        className="absolute hidden lg:block right-[0px] bottom-[-40rem] w-[6rem] h-[10rem]"
+        className="absolute hidden lg:block right-[-24px] bottom-[8rem] w-[6rem] h-[10rem]"
       />
     </div>
   );

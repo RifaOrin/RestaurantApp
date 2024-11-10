@@ -9,9 +9,11 @@ export default {
         yellow: "#FEBF00",
         darkYellow: "#a68f00",
         black: "#0A1425",
+        pink: "#FBF7F2",
       },
       fontFamily: {
-        bebas: ['"Bebas Neue"', "sans-serif"],
+        bebas: ["Bebas Neue", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       container: {
         center: true,
@@ -26,5 +28,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
