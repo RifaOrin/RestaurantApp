@@ -19,7 +19,7 @@ function PopularFood() {
   };
 
   return (
-    <div className="py-10 lg:py-16 bg-pink relative">
+    <div className="min-h-screen py-10 lg:py-16 bg-pink relative">
       {/* Container for title and navigation arrows on desktop */}
       <div className="container mx-auto flex justify-between items-center mb-6">
         {/* Left Section: Title and Subtitle */}
@@ -60,7 +60,7 @@ function PopularFood() {
         {FoodItems.map((item) => (
           <div
             key={item.id}
-            className="bg-white shadow-lg rounded-sm flex-shrink-0 w-60 p-4 text-center"
+            className="bg-white shadow-lg rounded-sm flex-shrink-0 w-60 p-4 text-center mb-3"
           >
             <img
               src={item.foodImage}
