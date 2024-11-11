@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
-import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { FoodItems } from "../mockData/FoodItems";
 import bellPepper from "../images/capsicum.png";
+import TitleSubtitle from "./TitleSubtitle.jsx";
+import LeftRightArrowButton from "./LeftRightArrowButton.jsx";
 
 function PopularFood() {
   const scrollRef = useRef(null);
@@ -21,34 +22,24 @@ function PopularFood() {
   return (
     <div className="min-h-screen py-10 lg:py-16 bg-pink relative">
       {/* Container for title and navigation arrows on desktop */}
-      <div className="container mx-auto flex justify-between items-center mb-6">
+      <div className="container flex justify-between items-center mb-6">
         {/* Left Section: Title and Subtitle */}
-        <div>
-          <div className="flex items-center space-x-2">
-            <div className="w-2 h-2 bg-red"></div>
-            <p className="text-sm text-red flex items-center justify-center font-semibold">
-              Crispy, Every Bite Tasty
-            </p>
-          </div>
-          <h1 className="font-bebas uppercase text-2xl sm:text-3xl lg:text-4xl mt-3 mb-5 text-black">
-            Popular food items
-          </h1>
-        </div>
-
+        <TitleSubtitle
+          subtitle={"Crispy, Every Bite Taste"}
+          title={"Popular food items"}
+        />
         {/* Right Section: Navigation Arrows on desktop */}
         <div className="hidden md:flex space-x-4">
-          <button
+          <LeftRightArrowButton
             onClick={() => scroll("left")}
-            className="bg-white shadow-lg rounded-full flex items-center justify-center text-black hover:bg-gray-200 p-2"
-          >
-            <FiChevronLeft size={24} />
-          </button>
-          <button
+            direction="left"
+            className="text-black"
+          />
+          <LeftRightArrowButton
             onClick={() => scroll("right")}
-            className="bg-white shadow-lg rounded-full flex items-center justify-center text-red hover:bg-gray-200 p-2"
-          >
-            <FiChevronRight size={24} />
-          </button>
+            direction="right"
+            className="text-red"
+          />
         </div>
       </div>
 
@@ -80,24 +71,22 @@ function PopularFood() {
 
       {/* Bottom navigation buttons for mobile */}
       <div className="flex justify-center space-x-4 mt-4 md:hidden">
-        <button
+        <LeftRightArrowButton
           onClick={() => scroll("left")}
-          className="bg-white shadow-lg rounded-full flex items-center justify-center text-black hover:bg-gray-200 p-2"
-        >
-          <FiChevronLeft size={24} />
-        </button>
-        <button
+          direction="left"
+          className="text-black"
+        />
+        <LeftRightArrowButton
           onClick={() => scroll("right")}
-          className="bg-white shadow-lg rounded-full flex items-center justify-center text-red hover:bg-gray-200 p-2"
-        >
-          <FiChevronRight size={24} />
-        </button>
+          direction="right"
+          className="text-red"
+        />
       </div>
       {/* Bell Pepper Image */}
       <img
         src={bellPepper}
         alt="Decorative bell pepper"
-        className="absolute hidden lg:block left-[1px] bottom-[10rem] w-[6rem] h-[10rem]"
+        className="absolute hidden lg:block left-[-1px] bottom-[10rem] w-[6rem] h-[10rem]"
       />
     </div>
   );

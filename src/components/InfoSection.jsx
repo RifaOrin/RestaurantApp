@@ -71,7 +71,7 @@ function InfoSection() {
       <img
         src={bellPepper}
         alt="Decorative bell pepper"
-        className="absolute hidden lg:block right-[-24px] bottom-[8rem] w-[6rem] h-[10rem]"
+        className="absolute hidden lg:block right-[-28px] bottom-[8rem] w-[6rem] h-[10rem]"
       />
     </div>
   );

@@ -8,7 +8,7 @@ function Reservation() {
   const [startDate, setStartDate] = useState(null);
   return (
     <div
-      className="min-h-screen relative bg-cover"
+      className="min-h-screen bg-cover"
       style={{ backgroundImage: `url(${cutlery})` }}
     >
       <div className="container py-5 sm:py-10 lg:py-16 flex flex-col lg:flex-row items-start justify-start">
@@ -41,17 +41,13 @@ function Reservation() {
               ></input>
             </div>
             <div className="mt-5 flex flex-col lg:flex-row gap-4">
-              <div className="relative">
-                <DatePicker
-                  selected={startDate}
-                  onChange={(date) => setStartDate(date)}
-                  placeholderText="Reservation Date"
-                  className="border focus:border-red focus:ring-0 rounded-sm bg-transparent px-5 py-2 w-full border-white placeholder:text-white focus:outline-none text-white text-sm 2xl:text-base"
-                />
-                <span className="absolute inset-y-0 right-3 flex items-center text-white pointer-events-none">
-                  <i className="fas fa-calendar-alt"></i>
-                </span>
-              </div>
+              <DatePicker
+                selected={startDate}
+                onChange={(date) => setStartDate(date)}
+                placeholderText="Reservation Date"
+                className="border w-full focus:border-red focus:ring-0 rounded-sm bg-transparent px-5 py-2 border-white placeholder:text-white focus:outline-none text-white text-sm 2xl:text-base"
+              />
+
               <input
                 type="number"
                 placeholder="Total People"
