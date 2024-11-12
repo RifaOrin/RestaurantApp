@@ -18,7 +18,7 @@ function Hero() {
       />
 
       {/* Navbar */}
-      <div className="relative z-20">
+      <div className="relative z-50">
         <Navbar />
       </div>
 
