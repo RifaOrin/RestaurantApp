@@ -6,10 +6,12 @@ export default {
       colors: {
         red: "#BD1F17",
         white: "#FFFFFF",
+        duskyWhite: "#F7F8F9",
         yellow: "#FEBF00",
         darkYellow: "#a68f00",
         black: "#0A1425",
         pink: "#FBF7F2",
+        pureBlack: "#000000",
       },
       fontFamily: {
         bebas: ["Bebas Neue", "sans-serif"],
