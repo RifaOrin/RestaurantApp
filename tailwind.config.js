@@ -16,6 +16,8 @@ export default {
       fontFamily: {
         bebas: ["Bebas Neue", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       container: {
         center: true,
