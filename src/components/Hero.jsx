@@ -23,7 +23,7 @@ function Hero() {
       </div>
 
       {/* Hero Content */}
-      <div className="container flex flex-col md:flex-row items-center justify-between relative z-20 py-10 md:py-16">
+      <div className="container flex flex-col md:flex-row items-center justify-between relative z-20 py-7 md:py-10 lg:py-16">
         {/* Left Section: Title, Subtitle, and Button */}
         <div className="relative w-full md:w-1/2 text-white text-center md:text-left mb-8 md:mb-0">
           {/* Title with Gradient Background */}

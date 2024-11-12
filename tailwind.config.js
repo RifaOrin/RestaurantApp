@@ -18,6 +18,7 @@ export default {
         inter: ["Inter", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
       },
       container: {
         center: true,

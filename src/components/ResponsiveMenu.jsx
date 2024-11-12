@@ -13,7 +13,7 @@ function ResponsiveMenu(props) {
           transition={{ duration: 0.3 }}
           className="fixed top-20 left-0 w-full h-screen z-100"
         >
-          <div className="text-sm font-semibold uppercase bg-red text-white p-7 m-6 rounded-3xl">
+          <div className="text-sm font-semibold capitalize bg-red text-white p-7 m-6 rounded-3xl font-ralway">
             <ul className="flex flex-col justify-center items-center gap-4">
               {/* Custom underline with pseudo-element */}
               {["Home", "About", "Portfolio", "Clients", "Blog", "Contact"].map(
