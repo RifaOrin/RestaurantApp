@@ -2,7 +2,7 @@ import burger from "../images/classic-burger.png";
 import pizza from "../images/pizza.png";
 import fries from "../images/french-fries.png";
 import chicken from "../images/fried-shrimp.png";
-import subsandwitch from "../images/beef-sub.png";
+import subsandwitch from "../images/beef.jpg";
 
 export const FoodItems = [
   {
