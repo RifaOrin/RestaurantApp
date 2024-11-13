@@ -75,7 +75,7 @@ function Review() {
           className="w-full lg:w-3/5 bg-cover bg-center order-first lg:order-last"
           style={{
             backgroundImage: `url(${video})`,
-            minHeight: "20rem",
+            minHeight: "24rem",
           }}
         ></div>
       </div>
