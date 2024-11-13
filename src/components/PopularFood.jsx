@@ -47,20 +47,20 @@ function PopularFood() {
           {FoodItems.map((item) => (
             <div
               key={item.id}
-              className="bg-white shadow-lg rounded-sm flex-shrink-0 w-[260px] p-4 text-center mb-3"
+              className="bg-white shadow-lg rounded-sm flex-shrink-0 w-[260px] xl:w-[330px] p-4 text-center mb-3"
             >
               <div className="h-30 flex justify-center items-center">
                 <img
                   src={item.foodImage}
                   alt={item.title}
-                  className="w-30 h-25 object-cover m-3"
+                  className="w-25 h-[5.5rem] xl:w-32 h-[6.5rem] object-cover m-3"
                 />
               </div>
               <div className="my-2 w-12 h-0.5 bg-red mx-auto"></div>
-              <h3 className="text-lg font-[500] text-black font-bebas">
+              <h3 className="text-lg xl:text-xl font-[500] text-black font-bebas">
                 {item.title}
               </h3>
-              <p className="text-xs text-black font-inter mb-3">
+              <p className="text-xs xl:text-sm text-black font-inter mb-3">
                 {item.subtitle}
               </p>
             </div>

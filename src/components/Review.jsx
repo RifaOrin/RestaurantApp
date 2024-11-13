@@ -40,7 +40,7 @@ function Review() {
       </div>
       <div className="container flex flex-col lg:flex-row lg:flex-nowrap">
         <div className="w-full lg:w-2/5 bg-yellow flex flex-col items-center justify-center p-14 order-last lg:order-first">
-          <p className="text-left text-sm font-medium text-black font-serif">
+          <p className="text-left text-sm xl:text-base 2xl:text-lg font-medium text-black font-serif">
             <span className="text-4xl text-black font-bold leading-none">
               {"\u201C"}
             </span>
@@ -51,10 +51,10 @@ function Review() {
 
           <div className="mt-10 lg:mt-20 flex items-center justify-between w-full border-b border-black pb-3">
             <div>
-              <h2 className="uppercase font-bebas text-black text-base">
+              <h2 className="uppercase font-bebas text-black text-base xl:text-lg">
                 Khalid Al Dawsry
               </h2>
-              <p className="capitalize text-xs text-black font-[400]">
+              <p className="capitalize text-xs xl:text-sm text-black font-[400]">
                 Jeddah, Saudi
               </p>
             </div>
@@ -62,14 +62,13 @@ function Review() {
               <img
                 src={profile}
                 alt="profile"
-                className="w-8 h-8 rounded-full ml-4"
+                className="w-8 h-8 xl:w-10 xl:h-10 rounded-full ml-4"
               />
               <div className="absolute left-[15px] bottom-[-16px] w-8 h-0.5 bg-red"></div>
             </div>
           </div>
         </div>
 
-        
         <div
           className="w-full lg:w-3/5 bg-cover bg-center order-first lg:order-last"
           style={{

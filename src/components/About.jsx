@@ -5,7 +5,7 @@ import phoneIcon from "../images/call.png";
 function About() {
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-[400] text-black font-bebas">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-[400] text-black font-bebas">
         Exceptional culinary experience and delicious food
       </h1>
       <p className="text-[#333333] text-sm xl:text-base text-justify">

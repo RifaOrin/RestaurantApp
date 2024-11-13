@@ -25,7 +25,7 @@ function InfoSection() {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`py-2 px-4 text-sm xl:text-base font-semibold ${
+                className={`py-2 px-4 text-sm xl:text-base 2xl:text-lg font-semibold ${
                   activeTab === tab
                     ? "bg-red text-white"
                     : "text-black hover:bg-gray-200"
@@ -55,10 +55,10 @@ function InfoSection() {
               </div>
 
               <div className="flex flex-col gap-1">
-                <p className="font-[500] text-black font-bebas text-xl lg:text-2xl">
+                <p className="font-[500] text-black font-bebas text-xl lg:text-2xl 2xl:text-3xl">
                   {item.title}
                 </p>
-                <p className="text-black font-inter text-xs lg:text-sm">
+                <p className="text-black font-inter text-xs lg:text-sm 2xl:text-base">
                   {item.subtitle}
                 </p>
               </div>

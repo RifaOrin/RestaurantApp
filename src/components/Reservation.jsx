@@ -14,14 +14,14 @@ function Reservation() {
         <div className="w-full lg:w-1/2">
           <div className="flex items-center space-x-2">
             <div className="w-2 h-2 bg-red"></div>
-            <p className="text-sm text-red flex items-center justify-center font-semibold">
+            <p className="text-sm 2xl:text-base text-red flex items-center justify-center font-semibold">
               Book Now
             </p>
           </div>
-          <h1 className="font-bebas uppercase text-2xl sm:text-3xl lg:text-4xl mt-3 mb-5 text-white">
+          <h1 className="font-bebas uppercase text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl mt-3 mb-5 text-white">
             Book your table
           </h1>
-          <p className="text-xs lg:text-sm text-white">
+          <p className="text-xs lg:text-sm 2xl:text-base text-white">
             Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
             molestie vel, ornare non id blandit netus.
           </p>

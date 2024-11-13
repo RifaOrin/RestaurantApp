@@ -5,11 +5,11 @@ function TitleSubtitle(props) {
     <div>
       <div className="flex items-center space-x-2">
         <div className="w-2 h-2 bg-red"></div>
-        <p className="text-xs lg:text-sm text-red flex items-center justify-center font-bold">
+        <p className="text-xs lg:text-sm 2xl:text-base text-red flex items-center justify-center font-bold">
           {subtitle}
         </p>
       </div>
-      <h1 className="font-bebas uppercase text-2xl sm:text-3xl lg:text-4xl mt-3 mb-5 text-black">
+      <h1 className="font-bebas uppercase text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl mt-3 mb-5 text-black">
         {title}
       </h1>
     </div>
