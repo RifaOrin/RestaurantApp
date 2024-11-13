@@ -17,9 +17,7 @@ function Navbar() {
     <>
       <nav>
         <div className="container flex justify-between items-center py-6">
-          {/* Logo and Menu Section */}
           <div className="flex items-center gap-2 lg:gap-6 2xl:gap-8">
-            {/* Logo */}
             <div className="flex items-center gap-2">
               <img
                 src={logo}
@@ -50,7 +48,6 @@ function Navbar() {
             </div>
           </div>
 
-          {/* Button Section */}
           <div className="hidden md:block">
             <Button text={"Book a table"} />
           </div>

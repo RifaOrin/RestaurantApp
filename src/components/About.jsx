@@ -5,7 +5,6 @@ import phoneIcon from "../images/call.png";
 function About() {
   return (
     <div className="space-y-4">
-      {/* Title and Subtitle */}
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-[400] text-black font-bebas">
         Exceptional culinary experience and delicious food
       </h1>
@@ -17,7 +16,6 @@ function About() {
         nostrud exercitation.
       </p>
 
-      {/* Button and Phone Number */}
       <div className="flex items-center gap-4 mt-4">
         <Button text={"about more"} />
         {/* Phone Section with Icon */}

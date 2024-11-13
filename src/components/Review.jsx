@@ -24,7 +24,7 @@ function Review() {
           title={"what some of my customers say"}
           subtitle={"Crispy, Every Bite Taste"}
         />
-        {/* Right Section: Navigation Arrows on desktop */}
+
         <div className="hidden md:flex space-x-4">
           <LeftRightArrowButton
             onClick={() => scroll("left")}
@@ -39,7 +39,6 @@ function Review() {
         </div>
       </div>
       <div className="container flex flex-col lg:flex-row lg:flex-nowrap">
-        {/* Yellow section with centered text */}
         <div className="w-full lg:w-2/5 bg-yellow flex flex-col items-center justify-center p-14 order-last lg:order-first">
           <p className="text-left text-sm font-medium text-black font-serif">
             <span className="text-4xl text-black font-bold leading-none">
@@ -70,7 +69,7 @@ function Review() {
           </div>
         </div>
 
-        {/* Image background section */}
+        
         <div
           className="w-full lg:w-3/5 bg-cover bg-center order-first lg:order-last"
           style={{

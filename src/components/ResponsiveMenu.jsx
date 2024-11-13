@@ -15,7 +15,6 @@ function ResponsiveMenu(props) {
         >
           <div className="text-sm font-semibold capitalize bg-red text-white p-7 m-6 rounded-3xl font-ralway">
             <ul className="flex flex-col justify-center items-center gap-4">
-              {/* Custom underline with pseudo-element */}
               {["Home", "About", "Portfolio", "Clients", "Blog", "Contact"].map(
                 (item) => (
                   <li

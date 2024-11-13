@@ -46,7 +46,6 @@ function InfoSection() {
               key={itemIndex}
               className="flex items-center space-x-4 sm:space-x-3 mb-4 sm:mb-0"
             >
-              {/* Icon with Circular Background and Shadow */}
               <div className="bg-white shadow-lg rounded-full p-2 flex items-center justify-center">
                 <img
                   src={item.icon}
@@ -55,7 +54,6 @@ function InfoSection() {
                 />
               </div>
 
-              {/* Text Section */}
               <div className="flex flex-col gap-1">
                 <p className="font-[500] text-black font-bebas text-xl lg:text-2xl">
                   {item.title}
@@ -69,7 +67,6 @@ function InfoSection() {
         })}
       </div>
 
-      {/* Bell Pepper Image */}
       <img
         src={bellPepper}
         alt="Decorative bell pepper"

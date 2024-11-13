@@ -8,7 +8,6 @@ function PopularFood() {
   const scrollRef = useRef(null);
   const cardWidth = 280;
 
-  // Function to scroll the carousel left or right
   const scroll = (direction) => {
     if (scrollRef.current) {
       const { scrollLeft } = scrollRef.current;
@@ -20,14 +19,12 @@ function PopularFood() {
 
   return (
     <div className="relative py-10 lg:py-16 bg-pink">
-      {/* Container for title and navigation arrows on desktop */}
       <div className="container flex justify-between items-center mb-6">
-        {/* Left Section: Title and Subtitle */}
         <TitleSubtitle
           subtitle={"Crispy, Every Bite Taste"}
           title={"Popular food items"}
         />
-        {/* Right Section: Navigation Arrows on desktop */}
+
         <div className="hidden md:flex space-x-4">
           <LeftRightArrowButton
             onClick={() => scroll("left")}
@@ -84,7 +81,7 @@ function PopularFood() {
           className="text-red"
         />
       </div>
-      {/* Bell Pepper Image */}
+
       <img
         src={bellPepper}
         alt="Decorative bell pepper"

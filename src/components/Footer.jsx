@@ -17,7 +17,7 @@ function Footer() {
       className="relative bg-cover bg-center"
       style={{ backgroundImage: `url(${restaurant})` }}
     >
-      {/* Overlay */}
+      
       <div className="absolute inset-0 bg-pureBlack opacity-80"></div>
 
       {/* Footer Content */}

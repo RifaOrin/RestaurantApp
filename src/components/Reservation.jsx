@@ -68,9 +68,7 @@ function Reservation() {
           <Button text={"Book Now"} />
         </div>
       </div>
-      <div className="w-full lg:w-1/2">
-        <div></div>
-      </div>
+      <div className="w-full lg:w-1/2"></div>
     </div>
   );
 }
