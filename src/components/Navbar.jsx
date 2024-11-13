@@ -18,7 +18,7 @@ function Navbar() {
       <nav>
         <div className="container flex justify-between items-center py-6">
           {/* Logo and Menu Section */}
-          <div className="flex items-center gap-4 lg:gap-6 2xl:gap-8">
+          <div className="flex items-center gap-2 lg:gap-6 2xl:gap-8">
             {/* Logo */}
             <div className="flex items-center gap-2">
               <img
@@ -29,7 +29,7 @@ function Navbar() {
               <img
                 src={restaurantText}
                 alt="restaurant-text"
-                className="h-4 w-24 xl:h-5"
+                className="h-4 xl:h-5"
               />
             </div>
 
@@ -40,7 +40,7 @@ function Navbar() {
                   <li key={itemIndex}>
                     <a
                       href={item.link}
-                      className="inline-block py-1 px-3 hover:text-yellow font-medium capitalize text-sm xl:text-base 2xl:text-lg transition duration-200 font-raleway"
+                      className="inline-block py-1 px-2 lg:px-3 hover:text-yellow font-medium capitalize text-xs lg:text-sm xl:text-base 2xl:text-lg transition duration-200 font-raleway"
                     >
                       {item.title}
                     </a>

@@ -27,7 +27,7 @@ function Hero() {
         {/* Left Section: Title, Subtitle, and Button */}
         <div className="relative w-full md:w-1/2 text-white text-center md:text-left mb-8 md:mb-0">
           {/* Title with Gradient Background */}
-          <div className="relative w-full md:w-[500px] md:h-[150px] xl:w-[648px] xl:h-[205px] 2xl:w-[822px] 2xl:h-[228px] mx-auto md:mx-0">
+          <div className="relative w-full md:w-[429px] lg:w-[500px] md:h-[150px] xl:w-[648px] xl:h-[205px] 2xl:w-[822px] 2xl:h-[228px] mx-auto md:mx-0">
             <img
               src={gradientBg}
               alt="gradient background"
@@ -56,7 +56,7 @@ function Hero() {
           <img
             src={foodImage}
             alt="right section image"
-            className="w-[300px] h-[250px] sm:w-[536px] sm:h-[400px] lg:w-[580px] lg:h-[430px] object-cover"
+            className="w-full h-full sm:w-[536px] sm:h-[400px] lg:w-[580px] lg:h-[430px] object-cover"
           />
 
           {/* Slightly Larger Yellow Circle Background */}

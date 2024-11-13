@@ -51,16 +51,18 @@ function InfoSection() {
                 <img
                   src={item.icon}
                   alt={`${item.title} icon`}
-                  className="w-8 h-8 lg:w-6 lg:h-6"
+                  className="w-6 h-6"
                 />
               </div>
 
               {/* Text Section */}
               <div className="flex flex-col gap-1">
-                <p className="font-[500] text-black font-bebas text-2xl">
+                <p className="font-[500] text-black font-bebas text-xl lg:text-2xl">
                   {item.title}
                 </p>
-                <p className="text-black font-inter text-sm">{item.subtitle}</p>
+                <p className="text-black font-inter text-xs lg:text-sm">
+                  {item.subtitle}
+                </p>
               </div>
             </div>
           );
