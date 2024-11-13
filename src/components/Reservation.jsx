@@ -7,10 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 function Reservation() {
   const [startDate, setStartDate] = useState(null);
   return (
-    <div
-      className="min-h-screen bg-cover"
-      style={{ backgroundImage: `url(${cutlery})` }}
-    >
+    <div className="bg-cover" style={{ backgroundImage: `url(${cutlery})` }}>
       <div className="container py-5 sm:py-10 lg:py-16 flex flex-col lg:flex-row items-start justify-start">
         <div className="w-full lg:w-1/2">
           <div className="flex items-center space-x-2">
@@ -32,7 +29,7 @@ function Reservation() {
               <input
                 type="text"
                 placeholder="Your Name *"
-                className="border focus:border-red focus:ring-0 rounded-sm bg-transparent px-5 py-2 border-white placeholder:text-white focus:outline-none text-left text-white text-sm 2xl:text-base"
+                className="border w-full focus:border-red focus:ring-0 rounded-sm bg-transparent px-5 py-2 border-white placeholder:text-white focus:outline-none text-left text-white text-sm 2xl:text-base"
               ></input>
               <input
                 type="email"
@@ -62,7 +59,9 @@ function Reservation() {
           <Button text={"Book Now"} />
         </div>
       </div>
-      <div className="w-full lg:w-1/2"></div>
+      <div className="w-full lg:w-1/2">
+        <div></div>
+      </div>
     </div>
   );
 }

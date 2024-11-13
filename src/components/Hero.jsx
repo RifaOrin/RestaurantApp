@@ -9,7 +9,7 @@ import Button from "./Button";
 
 function Hero() {
   return (
-    <div className="relative overflow-x-hidden bg-red min-h-screen">
+    <div className="relative overflow-x-hidden bg-red">
       {/* Background Image */}
       <img
         src={bgImage}

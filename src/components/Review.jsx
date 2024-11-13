@@ -18,7 +18,7 @@ function Review() {
     }
   };
   return (
-    <div className="min-h-screen relative bg-white py-7 sm:py-10 lg:py-16">
+    <div className="relative bg-white py-7 sm:py-10 lg:py-16">
       <div className="container py-3 lg:py-6 flex items-center justify-between">
         <TitleSubtitle
           title={"what some of my customers say"}
@@ -82,7 +82,7 @@ function Review() {
       <img
         src={parsley}
         alt="parsley"
-        className="absolute hidden lg:block right-[-1px] bottom-[1rem] w-[10rem] h-[19rem]"
+        className="absolute hidden lg:block right-[-1px] bottom-[1rem] w-[8rem] h-[19rem]"
       />
       <img
         src={tomato}

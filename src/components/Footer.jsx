@@ -14,7 +14,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer
-      className="relative bg-cover bg-center min-h-screen"
+      className="relative bg-cover bg-center"
       style={{ backgroundImage: `url(${restaurant})` }}
     >
       {/* Overlay */}

@@ -7,7 +7,7 @@ import { IconData } from "../mockData/IconData";
 function InfoSection() {
   const [activeTab, setActiveTab] = useState("About");
   return (
-    <div className="container min-h-screen py-10 lg:py-16 relative">
+    <div className="container py-10 lg:py-16 relative">
       <div className="flex flex-col lg:flex-row gap-8 pt-8 pb-10 lg:pb-16">
         {/* Left side: Food Image */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">

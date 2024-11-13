@@ -20,7 +20,7 @@ function PopularFood() {
   };
 
   return (
-    <div className="min-h-screen py-10 lg:py-16 bg-pink relative">
+    <div className="relative py-10 lg:py-16 bg-pink">
       {/* Container for title and navigation arrows on desktop */}
       <div className="container flex justify-between items-center mb-6">
         {/* Left Section: Title and Subtitle */}
